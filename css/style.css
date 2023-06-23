@@ -112,3 +112,31 @@ input[type="submit"]{
     border-radius: 3px;
 }
 
+@media(max-width: 600px){
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .formContainer{
+        margin-right: 0;
+        margin-top: 40px;
+
+    }
+
+    #destaque{
+        margin-top: 60px;
+        margin-right: 100px;
+        padding: 0;
+    }
+    .description, .li{
+        width: 260px;
+        height: 45px;
+    }
+
+
+
+}
